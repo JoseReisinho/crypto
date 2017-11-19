@@ -1,0 +1,27 @@
+Trabalho #2 para Criptografia 2017/2018
+
+Escreve um módulo python de nome "knapsack.py", que não importa qualquer outro módulo
+adicional e que implementa (pelo menos) os seguintes métodos
+
+keygen(k), que deve retornar um tuplo (p,s,m,n) em que:
+	p é uma lista de inteiros contendo k inteiros (a chave públicad do algoritmo de knapsacks)
+	s é a lista contendo a chave privada (o knapsack super crescente)
+	m e n são os inteiros referidos no algoritmo
+	
+cipher(msg, p) que retorna uma lista de inteiros que corresponde ao processo de cifra com a 
+	chave pública p de uma mensagem msg que consiste numa lista de 0s e 1s.
+	Podes supor que o tamanho da lista msg é um multiplo do tamanho dos knapsacks que 
+	constituem as chaves públicas e privadas.
+	
+decipher(msg, s, m, n) que decifra a mensagem msg (supondo que esta é uma lista de inteiros, 
+	como o output do método cipher)
+	s é a chave privada
+	m e n são os inteiros "ingredientes" do algoritmo
+	O método deve retornar uma lista de 0s e 1s, exactamente como o input de cipher.
+	
+	
+O ficheiro knapsack.py assim como a respectiva assinatura com gpg devem ser enviados
+	por emais para rvr@dcc.fc.up.pt até 27 de Novembro, pelas 23:00.
+	
+	
+	
