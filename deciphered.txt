@@ -1,7 +1,7 @@
 Trabalho #2 para Criptografia 2017/2018
 
 Escreve um módulo python de nome "knapsack.py", que não importa qualquer outro módulo
-adicional e que implementa (pelo menos) os seguintes métodos
+adicional, para além do "random"  e que implementa (pelo menos) os seguintes métodos
 
 keygen(k), que deve retornar um tuplo (p,s,m,n) em que:
 	p é uma lista de inteiros contendo k inteiros (a chave públicad do algoritmo de knapsacks)
